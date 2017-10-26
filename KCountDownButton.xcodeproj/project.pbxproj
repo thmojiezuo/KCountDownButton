@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4448DF1FA1CA8900141B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4448DE1FA1CA8900141B4B /* AppDelegate.m */; };
+		FC4448E21FA1CA8900141B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4448E11FA1CA8900141B4B /* ViewController.m */; };
+		FC4448E51FA1CA8900141B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4448E31FA1CA8900141B4B /* Main.storyboard */; };
+		FC4448E71FA1CA8900141B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4448E61FA1CA8900141B4B /* Assets.xcassets */; };
+		FC4448EA1FA1CA8900141B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4448E81FA1CA8900141B4B /* LaunchScreen.storyboard */; };
+		FC4448ED1FA1CA8900141B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4448EC1FA1CA8900141B4B /* main.m */; };
+		FC4448F71FA1CA8900141B4B /* KCountDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4448F61FA1CA8900141B4B /* KCountDownButtonTests.m */; };
+		FC4449021FA1CA8900141B4B /* KCountDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4449011FA1CA8900141B4B /* KCountDownButtonUITests.m */; };
+		FC4449141FA1CFBA00141B4B /* KCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4449131FA1CFBA00141B4B /* KCountDownButton.m */; };
+		FC4449151FA1D05C00141B4B /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4449111FA1CF5D00141B4B /* MSWeakTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4448F31FA1CA8900141B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4448D21FA1CA8900141B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4448D91FA1CA8900141B4B;
+			remoteInfo = KCountDownButton;
+		};
+		FC4448FE1FA1CA8900141B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4448D21FA1CA8900141B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4448D91FA1CA8900141B4B;
+			remoteInfo = KCountDownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4448DA1FA1CA8900141B4B /* KCountDownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCountDownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4448DD1FA1CA8900141B4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC4448DE1FA1CA8900141B4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC4448E01FA1CA8900141B4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC4448E11FA1CA8900141B4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC4448E41FA1CA8900141B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC4448E61FA1CA8900141B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4448E91FA1CA8900141B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC4448EB1FA1CA8900141B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4448EC1FA1CA8900141B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC4448F21FA1CA8900141B4B /* KCountDownButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCountDownButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4448F61FA1CA8900141B4B /* KCountDownButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCountDownButtonTests.m; sourceTree = "<group>"; };
+		FC4448F81FA1CA8900141B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4448FD1FA1CA8900141B4B /* KCountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4449011FA1CA8900141B4B /* KCountDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCountDownButtonUITests.m; sourceTree = "<group>"; };
+		FC4449031FA1CA8900141B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4449101FA1CF5D00141B4B /* MSWeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		FC4449111FA1CF5D00141B4B /* MSWeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		FC4449121FA1CFBA00141B4B /* KCountDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCountDownButton.h; sourceTree = "<group>"; };
+		FC4449131FA1CFBA00141B4B /* KCountDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCountDownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4448D71FA1CA8900141B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4448EF1FA1CA8900141B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4448FA1FA1CA8900141B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4448D11FA1CA8900141B4B = {
+			isa = PBXGroup;
+			children = (
+				FC44490F1FA1CF4A00141B4B /* resource */,
+				FC4448DC1FA1CA8900141B4B /* KCountDownButton */,
+				FC4448F51FA1CA8900141B4B /* KCountDownButtonTests */,
+				FC4449001FA1CA8900141B4B /* KCountDownButtonUITests */,
+				FC4448DB1FA1CA8900141B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4448DB1FA1CA8900141B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4448DA1FA1CA8900141B4B /* KCountDownButton.app */,
+				FC4448F21FA1CA8900141B4B /* KCountDownButtonTests.xctest */,
+				FC4448FD1FA1CA8900141B4B /* KCountDownButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4448DC1FA1CA8900141B4B /* KCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				FC4448DD1FA1CA8900141B4B /* AppDelegate.h */,
+				FC4448DE1FA1CA8900141B4B /* AppDelegate.m */,
+				FC4448E01FA1CA8900141B4B /* ViewController.h */,
+				FC4448E11FA1CA8900141B4B /* ViewController.m */,
+				FC4448E31FA1CA8900141B4B /* Main.storyboard */,
+				FC4448E61FA1CA8900141B4B /* Assets.xcassets */,
+				FC4448E81FA1CA8900141B4B /* LaunchScreen.storyboard */,
+				FC4448EB1FA1CA8900141B4B /* Info.plist */,
+				FC4448EC1FA1CA8900141B4B /* main.m */,
+			);
+			path = KCountDownButton;
+			sourceTree = "<group>";
+		};
+		FC4448F51FA1CA8900141B4B /* KCountDownButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4448F61FA1CA8900141B4B /* KCountDownButtonTests.m */,
+				FC4448F81FA1CA8900141B4B /* Info.plist */,
+			);
+			path = KCountDownButtonTests;
+			sourceTree = "<group>";
+		};
+		FC4449001FA1CA8900141B4B /* KCountDownButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4449011FA1CA8900141B4B /* KCountDownButtonUITests.m */,
+				FC4449031FA1CA8900141B4B /* Info.plist */,
+			);
+			path = KCountDownButtonUITests;
+			sourceTree = "<group>";
+		};
+		FC44490F1FA1CF4A00141B4B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				FC4449101FA1CF5D00141B4B /* MSWeakTimer.h */,
+				FC4449111FA1CF5D00141B4B /* MSWeakTimer.m */,
+				FC4449121FA1CFBA00141B4B /* KCountDownButton.h */,
+				FC4449131FA1CFBA00141B4B /* KCountDownButton.m */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4448D91FA1CA8900141B4B /* KCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4449061FA1CA8900141B4B /* Build configuration list for PBXNativeTarget "KCountDownButton" */;
+			buildPhases = (
+				FC4448D61FA1CA8900141B4B /* Sources */,
+				FC4448D71FA1CA8900141B4B /* Frameworks */,
+				FC4448D81FA1CA8900141B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCountDownButton;
+			productName = KCountDownButton;
+			productReference = FC4448DA1FA1CA8900141B4B /* KCountDownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4448F11FA1CA8900141B4B /* KCountDownButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4449091FA1CA8900141B4B /* Build configuration list for PBXNativeTarget "KCountDownButtonTests" */;
+			buildPhases = (
+				FC4448EE1FA1CA8900141B4B /* Sources */,
+				FC4448EF1FA1CA8900141B4B /* Frameworks */,
+				FC4448F01FA1CA8900141B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4448F41FA1CA8900141B4B /* PBXTargetDependency */,
+			);
+			name = KCountDownButtonTests;
+			productName = KCountDownButtonTests;
+			productReference = FC4448F21FA1CA8900141B4B /* KCountDownButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC4448FC1FA1CA8900141B4B /* KCountDownButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC44490C1FA1CA8900141B4B /* Build configuration list for PBXNativeTarget "KCountDownButtonUITests" */;
+			buildPhases = (
+				FC4448F91FA1CA8900141B4B /* Sources */,
+				FC4448FA1FA1CA8900141B4B /* Frameworks */,
+				FC4448FB1FA1CA8900141B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4448FF1FA1CA8900141B4B /* PBXTargetDependency */,
+			);
+			name = KCountDownButtonUITests;
+			productName = KCountDownButtonUITests;
+			productReference = FC4448FD1FA1CA8900141B4B /* KCountDownButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4448D21FA1CA8900141B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tenghu;
+				TargetAttributes = {
+					FC4448D91FA1CA8900141B4B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FC4448F11FA1CA8900141B4B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC4448D91FA1CA8900141B4B;
+					};
+					FC4448FC1FA1CA8900141B4B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC4448D91FA1CA8900141B4B;
+					};
+				};
+			};
+			buildConfigurationList = FC4448D51FA1CA8900141B4B /* Build configuration list for PBXProject "KCountDownButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4448D11FA1CA8900141B4B;
+			productRefGroup = FC4448DB1FA1CA8900141B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4448D91FA1CA8900141B4B /* KCountDownButton */,
+				FC4448F11FA1CA8900141B4B /* KCountDownButtonTests */,
+				FC4448FC1FA1CA8900141B4B /* KCountDownButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4448D81FA1CA8900141B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4448EA1FA1CA8900141B4B /* LaunchScreen.storyboard in Resources */,
+				FC4448E71FA1CA8900141B4B /* Assets.xcassets in Resources */,
+				FC4448E51FA1CA8900141B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4448F01FA1CA8900141B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4448FB1FA1CA8900141B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4448D61FA1CA8900141B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4449151FA1D05C00141B4B /* MSWeakTimer.m in Sources */,
+				FC4448E21FA1CA8900141B4B /* ViewController.m in Sources */,
+				FC4449141FA1CFBA00141B4B /* KCountDownButton.m in Sources */,
+				FC4448ED1FA1CA8900141B4B /* main.m in Sources */,
+				FC4448DF1FA1CA8900141B4B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4448EE1FA1CA8900141B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4448F71FA1CA8900141B4B /* KCountDownButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4448F91FA1CA8900141B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4449021FA1CA8900141B4B /* KCountDownButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4448F41FA1CA8900141B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4448D91FA1CA8900141B4B /* KCountDownButton */;
+			targetProxy = FC4448F31FA1CA8900141B4B /* PBXContainerItemProxy */;
+		};
+		FC4448FF1FA1CA8900141B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4448D91FA1CA8900141B4B /* KCountDownButton */;
+			targetProxy = FC4448FE1FA1CA8900141B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC4448E31FA1CA8900141B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4448E41FA1CA8900141B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC4448E81FA1CA8900141B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4448E91FA1CA8900141B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC4449041FA1CA8900141B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC4449051FA1CA8900141B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4449071FA1CA8900141B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC4449081FA1CA8900141B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = KCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC44490A1FA1CA8900141B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCountDownButton.app/KCountDownButton";
+			};
+			name = Debug;
+		};
+		FC44490B1FA1CA8900141B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCountDownButton.app/KCountDownButton";
+			};
+			name = Release;
+		};
+		FC44490D1FA1CA8900141B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCountDownButton;
+			};
+			name = Debug;
+		};
+		FC44490E1FA1CA8900141B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.KCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCountDownButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4448D51FA1CA8900141B4B /* Build configuration list for PBXProject "KCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4449041FA1CA8900141B4B /* Debug */,
+				FC4449051FA1CA8900141B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4449061FA1CA8900141B4B /* Build configuration list for PBXNativeTarget "KCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4449071FA1CA8900141B4B /* Debug */,
+				FC4449081FA1CA8900141B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4449091FA1CA8900141B4B /* Build configuration list for PBXNativeTarget "KCountDownButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC44490A1FA1CA8900141B4B /* Debug */,
+				FC44490B1FA1CA8900141B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC44490C1FA1CA8900141B4B /* Build configuration list for PBXNativeTarget "KCountDownButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC44490D1FA1CA8900141B4B /* Debug */,
+				FC44490E1FA1CA8900141B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4448D21FA1CA8900141B4B /* Project object */;
+}
